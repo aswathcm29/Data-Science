@@ -38,4 +38,20 @@ while(j>0){
 print(paste("Reversed number:", Rev))
   if(Temp==Rev){
     print(paste("Palindrome"))
+  }
+
+
+#sum of n natural numbers
+k=5
+sum=0
+for(x in 1:k){
+  sum=sum+x
 }
+print(paste("Sum of",k,"natural numbers are",sum))
+
+
+#alternate way
+h=5
+Sum=sum(1:h)
+print(paste("Sum of",k,"natural number is",Sum))
+
