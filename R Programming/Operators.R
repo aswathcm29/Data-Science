@@ -23,3 +23,9 @@ print(paste("a == b:", a == b))
 
 # Inequality
 print(paste("a != b:", a != b))
+
+#logical AND
+print((a==b)&(a!=b))
+
+#logical OR
+print((a==b)|(a!=b))
