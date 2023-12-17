@@ -24,3 +24,18 @@ print(paste("Reversed number:", rev))
 if(temp==rev){
   print(paste("Palindrome"))
 }
+
+
+#check for palindrome using while loop
+
+j=212
+Temp=j
+Rev=0
+while(j>0){
+  Rev=Rev*10+j%%10
+  j=j%/%10
+}
+print(paste("Reversed number:", Rev))
+  if(Temp==Rev){
+    print(paste("Palindrome"))
+}
