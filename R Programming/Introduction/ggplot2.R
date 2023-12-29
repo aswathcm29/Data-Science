@@ -9,15 +9,12 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
        x = "Sepal Length",  # Label the x-axis
        y = "Sepal Width")  # Label the y-axis
 
-
 # Box plot of Sepal.Length by Species
 ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
   geom_boxplot() +
   labs(title = "Box Plot of Sepal Length by Species",
        x = "Species",
        y = "Sepal Length")
-
-
 
 # Histogram of Sepal.Length
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
