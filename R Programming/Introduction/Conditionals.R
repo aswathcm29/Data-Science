@@ -8,7 +8,7 @@ if (x > 5) {
 
 
 # Nested if-else
-y = 7
+y = 8
 if (y > 5) {
   print("y is greater than 5")
 } else if (y == 5) {
