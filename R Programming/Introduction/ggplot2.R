@@ -18,7 +18,7 @@ ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
 
 # Histogram of Sepal.Length
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
-  geom_histogram(binwidth = 0.2, position = "identity", alpha = 0.7) +
+  geom_histogram(binwidth=0.15, position = "identity", alpha = 0.7) +
   labs(title = "Histogram of Sepal Length",
        x = "Sepal Length",
        y = "Frequency")
